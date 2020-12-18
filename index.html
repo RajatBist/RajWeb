@@ -1,17 +1,334 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Rajat Bist Homepage</title>
-    <meta charset="UTF-8" />
+<html lang="en">
 
-    <link href="./src/styles.scss" type="text/css" />
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Rajat Bist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My personal website to hold cool stuff">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <body>
-    <div class="main-container">
-      <div class="typewriter-text">
-        Welcome to Rajat Bist's Personal Website
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+  <link rel="stylesheet" href="style/animate.min.css">
+
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style/site_style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+</head>
+
+<body>
+
+  <div id="fullpage">
+
+    <div id="home" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 wow fadeIn" data-wow-delay="0.15s">
+            <h1>Rajat Bist</h1>
+            <div id="typed-strings"> <!--set up the typewriter effect-->
+
+              <p>COMPUTER SCIENTIST</p>
+              <p>SOFTWARE ENGINEER</p>
+              <p>MUSICIAN</p>
+              <p>SPORTS NERD</p>
+            </div>
+            <h2><span id="typed"></span></h2>
+            <a href="#about" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Learn more</a>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
       </div>
     </div>
-  </body>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
+            <h2>ABOUT ME</h2>
+            <h4>A QUICK RUNDOWN</h4>
+            <p>
+              I'm studying at University of California, San Diego with a B.S. in Computer Science
+              and Mathematics. My expected graduation date is March 2020.               
+            </p>
+            <p>
+              Side projects 
+            </p>
+          </div>
+          <div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
+            <span class="text-top">work1</small></span>
+            <div>
+              <p>
+                I worked at blank in blank
+              </p>
+            </div>
+            <span>Undergraduate TA<small>2017-2020</small></span>
+            <div>
+              <p>I worked in the <a style="text-decoration:none;color:teal"
+                  href="https://cse.ucsd.edu/undergraduate/undergraduate-tutors" target="_blank">CSE department</a>
+                at UCSD under Rick Ord and Gary Gillespie. The courses I've worked with include CSE 11 (Intro to
+                Computer Science), CSE 12 (Basic Data Structures), CSE 15L (Software Tools), CSE 30
+                (Computer Organization and Systems Programming), and CSE 110 (Software Engineering).
+                I was a head tutor for CSE 15L from Spring 2019 to Spring 2020.
+              </p>
+            </div>
+            <span>Software Engineer Intern<small>Summer 2018</small></span>
+            <div>
+              <p>
+                I worked at <a style="text-decoration:none;color:teal" href="https://www.serivcenow.com" target="_blank">
+                  ServiceNow
+                </a>
+                on the core platform development team. I used Java and BASH to write integration tests and performance
+                benchmarking software for a new tool in the platform, as well as spent time fixing reported platform
+                bugs scattered throughout various parts of the codebase.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start work -->
+    <div id="work" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 wow bounce">
+            <h2>MY (COMPUTER SCIENCE) INTERESTS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa fa-file-code-o"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Programming Language Theory</h3>
+                <p>
+                  I enjoy reading about and learning different programming languages, ranging from assembly to Visual Basic.
+                  My favorite languages right now are Haskell, Python, and C, though I do love me some ARM assembly. I've been
+                  reading more about program synthesis recently; one of my favorite papers at the moment is
+                  <a style="text-decoration:none;color:teal" target="_blank" href="https://cseweb.ucsd.edu/~npolikarpova/publications/pldi16.pdf">
+                    this one written by a UCSD professor.
+                  </a>
+                  I've also enjoyed reading about and messing with
+                  <a style="text-decoration:none;color:teal" target="_blank" href="https://www.pyret.org/">
+                    this programming language
+                  </a>
+                  made by another UCSD professor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa fa-bug"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Software Security</h3>
+                <p>I'm very interested in software systems and the security of those systems.
+                  I enjoy reading about and implementing ways in which we can make the software we write and use more
+                  secure and safe. One paper I've found interesting recently is
+                  <a style="text-decoration:none;color:teal" href="http://cseweb.ucsd.edu/~voelker/pubs/malextend-cset17.pdf" target="_blank">
+                    this one
+                  </a>
+                  about browser extension security,
+                  <a style="text-decoration:none;color:teal" href="http://cseweb.ucsd.edu/~snoeren/papers/tripwire-imc17.pdf", target="_blank">
+                    this one
+                  </a>
+                  about password security, and
+                  <a style="text-decoration:none;color:teal" href="https://nate-browne.github.io/files/stack_smashing.pdf" target="_blank">
+                    this classic paper
+                  </a>
+                  about buffer overflows.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa fa-cogs"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Software Systems</h3>
+                <p>
+                  I really like to read about and learn as much as possible about various software systems,
+                  ranging from operating systems to distributed networks. One thing I actively want to learn
+                  is about how operating system security plays into building the applications and services we use
+                  on a daily basis. Currently, I enjoy
+                  <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf" target="_blank" style="text-decoration:none;color:teal">
+                    this paper
+                  </a>
+                  about the Google File System, as well as
+                  <a href="https://research.swtch.com/macpprof" target="_blank" style="text-decoration:none;color:teal">
+                    this one
+                  </a>
+                  about macOS kernel security.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- end work -->
+
+    <!-- start interests -->
+    <div id="interests" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 wow bounce">
+            <h2>(A FEW OF) MY OTHER INTERESTS</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa fa-music"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Music</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa fa-steam"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Gaming/Reading</h3>
+                <p>
+                  I like all kinds of games and gaming, from video games like CS:GO and Planet Coaster
+                  to board games like Betrayal on the House on the Hill. I also enjoy reading both CS related
+                  books as well as regular books. One of my all-time favorite books is
+                  <a href="https://www.amazon.com/Kite-Runner-Khaled-Hosseini/dp/1573222453/ref=sr_1_1?keywords=the+kite+runner&qid=1555798317&s=gateway&sr=8-1"
+                  target="_blank" style="text-decoration:none;color:teal">
+                  The Kite Runner by Khaled Hosseini.
+                </a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="media">
+              <div class="media-object media-left">
+                <i class="fa fa-soccer-ball-o"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">Sports</h3>
+                <p>
+                  I enjoy watching and playing lots of sports, including volleyball, soccer, cycling, and baseball.
+                  <a href="https://www.youtube.com/watch?v=uXdpAgMQwUo" target="_blank" style="text-decoration:none;color:teal">
+                    I actively bodyboard
+                  </a>,
+                  and enjoy spending lots of time at the beach. My favorite football club is Manchester United (GGMU), my
+                  favorite baseball teams are the Los Angeles Angels and San Francisco Giants,
+                  my favorite surfers are John John Florence and Kolohe Andino, and my favorite basketball team is the Golden State Warriors.
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <!-- start contact -->
+    <div id="contact" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <address>
+              <p class="contact-title">GET IN TOUCH</p>
+              <p><i class="fa fa-envelope-o"></i>npcompletenate [at] protonmail [dot] com</p>
+              <p><i class="fa fa-map-marker"></i>37.540750, -122.299720</p>
+              <!-- Location coordinates
+              'UCSD': '32.8818 -117.2335',
+              'SurveyMonkey': '37.540750 -122.299720'
+              -->
+          </div>
+          <div id="googleMap" class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
+              <iframe src="https://open.spotify.com/embed/playlist/0u4e4bsQK9yS75an4sFMou" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
+              </iframe>
+          </div>
+          <div class="col-md-1 col-sm-1"></div>
+          </div>
+      </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
+            <p>Copyright &copy; 2020 Nate Browne.
+              <hr>
+              <ul class="social-icon">
+                <li><a href="https://www.facebook.com/npcompletenate" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://instagram.com/npcompletenate" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="https://github.com/nate-browne" target="_blank" class="fa fa-github"></a></li>
+                <li><a href="https://www.linkedin.com/in/nate-browne/" target="_blank" class="fa fa-linkedin"></a></li>
+                <li><a href="https://open.spotify.com/user/1241916080?si=HZ98kUMxSti14RouPKg-DA" target="_blank" class="fa fa-spotify"></a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+  </div>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- fullpage -->
+  <!--<script src="js/jquery.fullPage.js"></script> -->
+  <!-- smoothScroll -->
+  <script src="js/smoothscroll.js"></script>
+  <!-- wow -->
+  <script src="js/wow.min.js"></script>
+  <!-- text rotater -->
+  <script src="js/jquery.simple-text-rotator.js"></script>
+  <!-- custom -->
+  <script src="js/custom.js"></script>
+
+  <!--Set up the typewriter effect-->
+  <script>
+    // See https://github.com/mattboldt/typed.js/ for a full list of customization options
+    var typed = new Typed("#typed", {
+      stringsElement: '#typed-strings',// ID of element containing strings
+      typeSpeed: 65, // Speed of typing
+      backSpeed: 65, // Speed of backspacing
+      backDelay: 2500, // How much time between finishing typing and starting to backspace (in ms)
+      loop: true, // Loop continuously
+    });
+  </script>
+
+  <!--
+  <script src="js/maps.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFDV3gD5PC_ht7UNnoc65xlUo3210Rxqs&callback=gen_map"></script>
+-->
+</body>
+
 </html>
