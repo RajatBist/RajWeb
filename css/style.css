@@ -3,5 +3,8 @@ body{
   color:#FFFFFF;
 }
 .Intro-Slate{
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
   background-image: url("../images/Downtown_San_Diego_Skyline.jpg");  
 }
