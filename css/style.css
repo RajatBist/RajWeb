@@ -11,10 +11,20 @@ body{
   background-color:#000000;
   color:#FFFFFF;
 }
-.Intro-Slate{
 
-  background-image: url("../images/Downtown_San_Diego_Skyline.jpg");
-  background-position: center top;
-  background-size: 100% auto;
-  height: 100%;
+.image{
+  height: 900px;
+width: 1450px;
+/*  max-width: 100%;
+/*  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.centered {
+  display: flex;
+flex-wrap: wrap;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+/*  transform: translate(-50%, -50%);*/
 }
