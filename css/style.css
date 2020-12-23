@@ -16,6 +16,7 @@ body{
 }
 
 .Intro-Slate img{
+  height: auto;
   background-size:100%;
   position:relative;
   object-fit: absolute;
