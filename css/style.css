@@ -19,6 +19,7 @@ body{
   background-size:100%;
   position:relative;
   object-fit: absolute;
+  width = 100%
 }
 
 .Intro-Slate h1{
