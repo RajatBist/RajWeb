@@ -10,17 +10,18 @@ h1 {
 body{
   margin-top: 0;
   margin-left: 0;
+  margin-right: 0;
 
   background-color:#000000;
   color:#FFFFFF;
 }
 
 .Intro-Slate img{
-  height: auto;
   background-size:100%;
   position:relative;
   object-fit: absolute;
-  width = 100%
+  width: 1450px; 
+  height: 675px;
 }
 
 .Intro-Slate h1{
