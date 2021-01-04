@@ -64,12 +64,14 @@ p{
   width: 50%;
 }
 .block h3{
+  font-size: 25px;
   font-family: 'IBM PLEX SANS';
   margin-left: 100px;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 .block p{
   font-family: 'IBM PLEX SANS';
+  font-size: 20px;
   margin-top: 5%;
   margin-left: 10%;
 }
