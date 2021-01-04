@@ -31,7 +31,7 @@ body{
   padding: 10px 25px;
   position: absolute;
   top: 5%;
-  left: 48%;
+  left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
 }
@@ -54,21 +54,34 @@ h2{
   box-sizing: border-box;
 }
 p{
+  font-family: 'IBM PLEX SANS';
   margin-top: 10%;
   margin-left: 10%;
 }
 .block{
+  font-family: 'IBM PLEX SANS';
   float:left;
   width: 50%;
 }
 .block h3{
+  font-family: 'IBM PLEX SANS';
   margin-left: 100px;
-  margin-top: 12%;
+  margin-top: 15%;
 }
 .block p{
-  margin-top: 12%
+  font-family: 'IBM PLEX SANS';
+  margin-top: 5%;
   margin-left: 10%;
 }
 .container{
+  font-family: 'IBM PLEX SANS';
   text-align: center;
+}
+
+.myExperience p{
+  font-family: 'IBM PLEX SANS';
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 20px;
 }
